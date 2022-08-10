@@ -1,0 +1,406 @@
+body{
+   width: auto !important;
+}
+
+.bg-light{
+    --bs-bg-opacity: 0 !important;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+}
+/*navbar*/
+
+.navbar-light .navbar-nav .nav-link{
+   position: relative;
+   box-sizing: border-box;
+   font-family: 'Gruppo', cursive;
+}
+nav#claunavbar{
+    padding: 0;
+}
+.nav-link.active{
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+}
+a{
+    color: white !important;
+}
+.navbar-light .navbar-toggler{
+    color: rgb(105, 105, 248) !important;
+    background-color: rgb(128, 128, 245);
+}
+#auroraUtazas{
+    background-color: black;
+    color: white !important;
+}
+.navbar sticky-top navbar-light bg-light{
+    color: white !important;
+    margin: 0;
+}
+#auroraUtazas img{
+    display: inline;
+    margin-right: 15px;
+    width: 200px;
+}
+.navbar-nav .nav-link{
+    padding-left: 15px !important ;
+    padding-right: 15px !important;
+}
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row !important;
+}
+.navbar-nav >a:link{
+    color: white !important;
+}
+.navbar-nav >a:visited{
+    color: rgb(255, 255, 255) !important;
+}
+.navbar-nav >a:active{
+    color: rgb(81, 142, 255) !important;
+}
+.navbar-nav >a:hover{
+    color: rgb(124, 236, 124) !important;
+}
+.navbar-light .navbar-brand{
+    color: white !important;
+}
+/*carousel*/
+.carousel-item img{
+    height: 500px;
+}
+.carousel-caption{
+    font-family: 'Gruppo', cursive;
+}
+h5{
+    font-size: 2rem !important;
+}
+p{
+    font-size: 1.5rem !important;
+}
+/*leiras*/
+#tartalom{
+    margin: 0%;
+    padding: 0%;
+}
+section, article, h1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+#rolunk{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    background: black;
+    color: white !important;
+    padding: 2px !important;
+    height: 50%;
+    flex-wrap: wrap;
+    column-count: 2;
+    margin-bottom: 0;
+}
+.scroll1{
+    
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgb(124 124 124) !important;
+    
+}
+#miert{
+    
+    width: 100% !important;
+    
+    margin: 0;
+    justify-content: center;
+    line-height: 5rem !important;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+    
+   }
+/*programok modal*/
+.allprogram{
+    padding: 10px !important;
+    display: flex !important;
+    width: 100%;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    text-align: center !important;
+    position: relative !important;
+}
+.adventure{
+    height: 100px;
+    position: relative;
+    justify-content: center;
+}
+.destination{
+    height: 100px;
+}
+.scroll2{
+    margin: 0;
+}
+#program{
+    background-color: rgb(124 124 124) !important;
+}
+.btn-primary{
+    background-color: rgba(0, 0, 0, 0.068) !important;
+    border: none !important;
+    padding: 0 !important;
+}
+.plane{
+    width: 100px !important;
+}
+.modal-title{
+    text-align: center;
+    color: white;
+    font-family: 'Gruppo', cursive;
+}
+.modal-header{
+    border: thin solid black !important;
+    border-radius: 15px !important;
+    background-color: rgb(0, 0, 0, .8);
+}
+.btn-close{
+    background-color: white !important;
+    border-radius: 15px !important;
+}
+button:focus:not(:focus-visible){
+    outline: none !important;    
+}
+.modal-content{
+    display: inline !important;
+    color: white;
+    height: 80vh;
+    max-width: 500vh;
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-size: 26px;
+}
+.modal-body{
+    border: thin solid black;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0, .8);
+}
+/*btn pictures*/
+img.tromso{
+    display: block;
+    height: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+img.reindeer{
+    display: block;
+    height: 250px;
+    margin: 20px;
+   padding: 10px;
+}
+img.sledge{
+    display: block;
+    height: 250px;
+    margin: 20px;
+   padding: 10px;
+}
+img.borealis{
+    display: block;
+    height: 250px;
+   margin: 20px;
+   padding: 10px;
+}
+img.fjord{
+    display: block;
+    height: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+img.budapest{
+    display: block;
+    height: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+/*helyszin page*/
+body{
+    background-color: #000000 !important;
+}
+iframe{
+    min-width: none;
+    width: 90%;
+    height: 600px;
+}
+/*footer*/
+#footer{
+    margin:0;
+    margin-top: 10px !important;
+    background: black !important;
+    font-size:20px;
+    text-align: center !important;
+}
+.list-footer-height-1{
+    min-height:40px;
+    max-height:60px
+}
+.list-group-item-dark.list-group-item-action:hover, .list-group-item-dark.list-group-item-action:focus{
+    background: grey !important;
+}
+.list-group-item-dark,button.list-group-item-dark{
+    background: black !important;
+}
+a.list-group-item-dark,button.list-group-item-dark{
+    color:#f8f8f8 !important;
+}
+.list-group-item{
+    padding: 0 !important;
+    background: black;
+}
+#bottom-footer{
+    display:block;
+    width:100%;
+    margin:0;
+    padding:15px 0 15px 0;
+    color:#fff;
+    background-color:#000000 !important;
+    text-align:center
+}
+/*impresszum és kapcsolat*/
+#kontakt{
+    height: 120px;
+    width: 120px;
+}
+#contact{
+    position: relative;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-family: 'Dancing Script', cursive;
+}
+#contact p{
+    font-size: 45px !important;
+    color: white !important;
+}
+.elsoszo{
+    font-weight: bold;
+}
+#impressimg{
+    height: 180px;
+    width: 180x;
+}
+#impress{
+    position: relative;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-family: 'Dancing Script', cursive;
+}  
+#impress p{
+    font-size: 45px !important;
+    color: white !important;
+}
+#impresstartalom{
+    position: relative;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 35px !important;
+    color: white !important;
+}
+#impresstartalom2{
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    border-bottom: thin solid white !important;
+    border-top: thin solid white !important;
+    position: relative;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 35px !important;
+    color: white !important;
+}
+/*socialmedia*/
+#contacttartalom{
+    position: relative;
+    text-align: center !important;
+}
+#contacttartalom img{
+    width: 100px !important;
+    height: 100px !important;
+    vertical-align: baseline;
+}
+
+/*fotók*/
+h3.u-text.u-text-default.u-text-1 {
+    color: white;
+}
+/*scroll top*/
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px; 
+    right: 30px;  
+    z-index: 99;  
+    border: none; 
+    outline: none; 
+    background-color: rgb(99, 99, 99);
+    color: black; 
+    cursor: pointer;
+    padding: 10px; 
+    border-radius: 20px; 
+    font-size: 16px; 
+  }
+  #myBtn:hover {
+    background-color: rgb(255, 255, 255); 
+  }
+  /*cookie modal*/
+  .modal-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0px;
+    
+}
+.modal-inner {
+    font-family: 'Gruppo', cursive;
+    color: white;
+    text-align: center;
+    border: thin solid black;
+    border-radius: 15px;
+    width: 650px;
+    height: 400px;
+    background-color: rgb(6, 153, 104, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.elfogadom{
+   border: none;
+    background: none;
+}
+.elfogadom img{
+    width: 100px!important;
+    height: 100px !important;    
+}
+@media screen and (max-width: 360) {
+    .elfogadom img{
+        width: 30px!important;
+        height: 30px !important;  
+    }  
+}

@@ -1,0 +1,59 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("igazol.jpg");
+  background-position: 50% 50%;
+}
+ p#fooldal{
+  font-size: 10rem;
+ }
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-text-1 {
+  width: 502px;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1.24;
+  margin: 90px auto 0;
+}
+
+.u-sheet:not(.u-image):not(.u-video) > *{
+  font-family: 'Sacramento', cursive;
+}
+
+h1.u-title{
+  font-size: 5rem;
+}
+
+.u-section-1 .u-text-2 {
+  
+  width: 826px;
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-scale: 1;
+  margin: 102px auto 60px;
+  
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-2 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+}

@@ -1,0 +1,1 @@
+SELECT * FROM foglalas.ar_ajanlat;
