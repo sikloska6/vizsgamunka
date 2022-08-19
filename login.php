@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(isset($_SESSION['user_id'])){
+    header('Location: Vedett.php');
+}
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -25,10 +31,10 @@
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
-		      	<h3 class="mb-4 text-center">email: admin@gmail.com | jelszó: admin</h3>
+		      	<h3 class="mb-4 text-center">email: admin@admin.hu | jelszó: admin</h3>
 		      	<form action="passwordcheck.php" class="signin-form" method="POST">
 		      		<div class="form-group">
-		      			<input type="email" class="form-control" name="email1" placeholder="email1" required>
+		      			<input type="email" class="form-control" name="email" placeholder="email" required>
 		      		</div>
 	            <div class="form-group">
 	              <input id="password-field" type="password" class="form-control" name="password" placeholder="Jelszó" required>

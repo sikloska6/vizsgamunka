@@ -5,3 +5,4 @@ if(isset($_SESSION['user_id'])){
 }else{
     print('Nem léptél be :(');
 }
+

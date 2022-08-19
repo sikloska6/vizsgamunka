@@ -1,8 +1,8 @@
 <?php
 session_start();
-if (isset($_POST['email1']) && isset($_POST['password'])) {
-    if (filter_var($_POST['email1'], FILTER_VALIDATE_EMAIL)) {
-        $email1 = $_POST['email1'];
+if (isset($_POST['email']) && isset($_POST['password'])) {
+    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+        $email = $_POST['email'];
         $ppassword = $_POST['password'];
         require_once('./conf.php');
         $conn = mysqli_connect($server, $user, $password, $db);
@@ -10,7 +10,7 @@ if (isset($_POST['email1']) && isset($_POST['password'])) {
         if (!$conn) {
             die("Connection failed: " . mysqli_connect_error());
         }
-        $sql = "SELECT id, email1, jelszo FROM felhasznalo WHERE email1 = '".$email1."'";
+        $sql = "SELECT id, email, jelszo FROM felhasznalo WHERE email = '".$email."'";
         $result = mysqli_query($conn, $sql);
         if (!$result) {
             print(mysqli_error($conn) . ' ' . mysqli_errno($conn));
