@@ -55,20 +55,16 @@ if(isset($_SESSION['user_id'])){
 								</div>
 	            </div>
 	          </form>
-	          
-	          
 		      </div>
 				</div>
 			</div>
 			<a href="vizsgamunka.html">Vissza A Főoldalra</a>
 		</div>
 	</section>
-
 	<script src="jquery.min.js"></script>
   <script src="popper.js"></script>
   <script src="bootstrap.min.js"></script>
   <script src="main.js"></script>
-
 	</body>
 </html>
 
