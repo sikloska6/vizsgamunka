@@ -60,6 +60,7 @@ if(isset($_SESSION['user_id'])){
 		      </div>
 				</div>
 			</div>
+			<a href="vizsgamunka.html">Vissza A Főoldalra</a>
 		</div>
 	</section>
 
