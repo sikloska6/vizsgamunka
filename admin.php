@@ -170,7 +170,7 @@
             <tr>
                 <td><?php print($row['id']); ?></td>
                 <td><?php print($row['nev']); ?></td>
-                <td><?php print($row['email']); ?></td>
+                <td><?php print("<a href='mailto:$row[email]'>$row[email]</a>"); ?></td>
                 <td><?php print($row['telefonszam']); ?></td>
                 <td><?php print($row['tb_szam']); ?></td>
                 <td><?php print($row['utasok_szama']); ?></td>
