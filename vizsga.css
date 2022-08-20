@@ -45,6 +45,7 @@ a{
     display: inline;
     margin-right: 15px;
     width: 200px;
+    height: 150px !important;
 }
 .navbar-nav .nav-link{
     padding-left: 15px !important ;
