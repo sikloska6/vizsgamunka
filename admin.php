@@ -149,11 +149,13 @@
                 <th>idegenvezetés</th>
                 <th>Utasbiztosítás</th>
                 <th>Egyéb</th>
+                <th>törlés</th>
             </tr>
         </thead>
         <tbody> 
         
         <?php
+        
         require_once('./conf.php');
         $conn = mysqli_connect($server, $user, $password, $db);
 
@@ -178,6 +180,13 @@
                 <td><?php print($row['idegenvezetes']); ?></td>
                 <td><?php print($row['utasbiztositas']); ?></td>
                 <td><?php print($row['egyeb']); ?></td>
+                <form action="deleteadmin.php" method="post">
+                  <th>
+                    <input type="hidden" name="id" value="<?php echo $row['id'] ?>">
+                    <input type="submit" name="delete" class="btn btn-danger" value="TÖRLÉS">
+                  </th>
+                </form>
+                
             </tr>
             <?php
             }
@@ -196,6 +205,7 @@
                 <th>idegenvezetés</th>
                 <th>Utasbiztosítás</th>
                 <th>Egyéb</th>
+                <th>törlés</th>
             </tr>
         </tfoot>
     </table>
