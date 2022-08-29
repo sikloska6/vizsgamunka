@@ -222,7 +222,7 @@
             </tr>
         </tfoot>
     </table>
-        
+        <div class="d-block row col md-12" style="text-align:center">Ajánlat számítás</div>
         <div class="row col md-6" style="border:thin solid black; text-align:center" id="szamol">
               <form action="calculate.php" method="post">
 

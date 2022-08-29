@@ -47,7 +47,7 @@ print('<div>'.$truetotal.'Ft'.'</div>');
     </style>
 </head>
 <body>
-    <div>A jelenlegi jánlat amit adhat!</div>
+    <div>A jelenlegi ajánlat amit adhat!</div>
     <a href="admin.php">Ajánlatot írok</a>
 </body>
 </html>
