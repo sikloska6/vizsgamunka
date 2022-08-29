@@ -40,6 +40,19 @@
       padding: 10px !important;
     border: thin solid black;
     }
+    #szamol > form > div{
+      display: contents;
+    }
+    #szamol{
+    --bs-gutter-x: 0 !important;
+    margin: 10px;
+  }
+    .row{
+    --bs-gutter-x: 0 !important;
+  }
+  #szamol{
+    display: contents;
+  }
   </style>
 </head>
 <body class="hold-transition sidebar-mini">
@@ -209,9 +222,50 @@
             </tr>
         </tfoot>
     </table>
+        
+        <div class="row col md-6" style="border:thin solid black; text-align:center" id="szamol">
+              <form action="calculate.php" method="post">
+
+            <label for="utazas" class="row col-md3">Utazás ára</label>
+            <input type="number" name="utazas" id="utazas" style="max-width:max-content" value="30000">
+
+            <label for="szallas" class="row col-md3">Szállás ára</label>
+            <input type="number" name="szallas" id="szallas" style="max-width: max-content" value="20000">
+
+              <label for="utasok_szama" class="row col-md-3">Utasok száma</label>
+					    <input type="number" name="utasok_szama" style="max-width: max-content" id="utasok_szama" min="1" value="1">
+						    
+              <label for="plusz_agy" class="row col-md-3">Kér plussz ágyat?</label>
+					    <select class="col-md-3" name="plusz_agy" style="max-width: max-content" id="plusz_agy">
+						    <option value="5000">Kér</option>
+						    <option value="0">Nem kér</option>
+					    </select>
+
+              <label for="idegenvezetes" class="row col-md-3">Idegenvezetés Más nyelven</label>
+					    <select class="col-md-3" name="idegenvezetes" style="max-width: max-content" id="idegenvezetes">
+						    <option value="0">Nem</option>
+						    <option value="10000">Igen</option>
+					    </select>
+
+              <label for="utasbiztositas" class="row col-md-3">Kér utasbiztosítást?</label>
+					    <select class="col-md-3" name="utasbiztositas" style="max-width: max-content" id="utasbiztositas">
+						    <option value="10000">Kér</option>
+						    <option value="0">Nem kér</option>
+					    </select>
+
+              <label for="egyeb" class="row col-md-3">Egyéb kérések</label>
+              <select name="egyeb" style="max-width: max-content" id="egyeb">
+                <option value="5000">Kér</option>
+                <option value="0">Nem kér</option>
+              </select>
+              <div class="row col-md-6">
+              <input class=" btn btn-success" type="submit" style="margin-top: 20px;" name="submit" value="Számolás">
+              </div>
+              
+              
+              </form>
         </div>
-              <!-- /.card-body -->
-        </div>
+        
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
   </aside>
